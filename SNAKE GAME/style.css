@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #171717;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  padding: 20px;
+}
+
+.score_container {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#restart_game {
+  margin: 0 auto;
+  display: block;
+  padding: 9px 5px;
+  background: #212121;
+  color: #00ff80;
+  font-weight: bold;
+  border: none;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.game {
+  height: 225px;
+  width: 225px;
+  background: #e0e0e0;
+  margin: 0 auto;
+}
+
+.tile {
+  float: left;
+  margin: 0;
+  content: "";
+  background: #e0e0e0;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 134, 255, 0.05);
+}
+
+.body {
+  background: #bdbdbd;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+}
+
+.head {
+  background: black;
+}
+
+.fruit {
+  background: #00b35a;
+  border-radius: 5px;
+}
+
+.instructions {
+  font-size: 13px;
+  color: #757575;
+  padding-bottom: 20px;
+}
